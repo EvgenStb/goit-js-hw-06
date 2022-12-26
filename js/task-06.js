@@ -2,7 +2,7 @@ const inputField = document.querySelector("input");
 inputField.addEventListener('blur',onImputBlur)
 
 function onImputBlur () {
-    if (inputField.value.length >= inputField.dataset.length){
+    if (inputField.value.length == inputField.dataset.length){
         inputField.classList.remove("invalid");
         inputField.classList.add("valid")
     } else 

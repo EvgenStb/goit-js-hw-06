@@ -13,10 +13,10 @@ function handleBoxCreating (boxQuantity){
   for (let i=1; i <= boxQuantity; i +=1){
     const box = document.createElement('div');
     console.log (box);
-    box.width = `${width+10}px`
-    box.hight = `${hight+10}px`
-    box.backgroundColor = getRandomHexColor();
-    console.log(box);
+    // box.width = `${width+10}px`
+    // box.hight = `${hight+10}px`
+    // box.backgroundColor = getRandomHexColor();
+    // console.log(box);
     // collectionContainer.append(...box);
 }}
 console.log(handleBoxCreating());
